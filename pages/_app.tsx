@@ -1,12 +1,13 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
+import {SITE_KEY} from "../config/index"
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <GoogleReCaptchaProvider
-        reCaptchaKey="your_site-key"
+        reCaptchaKey={SITE_KEY}
         scriptProps={{
           async: false,
           defer: false,
