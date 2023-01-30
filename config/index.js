@@ -1,3 +1,3 @@
-const SITE_KEY="6LdkVDokAAAAAIA3MyCsWpEGrQzXAwhUDtfi2Umg";
-const SECRET_KEY="6LdkVDokAAAAALgbSdN8VxAFMYV2Owhqo8qRjtdq"
+const SITE_KEY="your_site_key";
+const SECRET_KEY="your_secret_keys"
 export {SITE_KEY,SECRET_KEY}
